@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --size: 1vw + 1vh
+}
+
+.container{
+    max-width: 960px;
+    padding: 0 calc(var(--size));
+    margin: 0 auto;
+}
